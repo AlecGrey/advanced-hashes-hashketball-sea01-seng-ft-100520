@@ -289,7 +289,8 @@ def long_name_steals_a_ton?
       most_steals = hash[:steals]
       most_steals_player = hash[:player_name]
     end
-    
+  end
+  
   player_with_longest_name == most_steals_player
   
 end
